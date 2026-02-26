@@ -107,7 +107,7 @@ function Calendar({ selectedDate, onSelect, onClose, savedDates }) {
 
   return (
     <div ref={ref} style={{
-      position: "absolute", top: "100%", left: 0, zIndex: 100, marginTop: 8,
+      position: "absolute", top: "100%", left: 0, zIndex: 9999, marginTop: 8,
       background: "#1a2e1a", border: "1px solid #2d5a2d", borderRadius: 16,
       padding: 16, boxShadow: "0 16px 48px rgba(0,0,0,0.4)", minWidth: 300,
       animation: "fadeIn 0.2s ease"
