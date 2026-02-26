@@ -448,8 +448,8 @@ export default function App() {
       </header>
 
       {/* Date nav */}
-      <div style={{ display: "flex", alignItems: "center", justifyContent: "center", gap: 12, padding: "20px 24px", flexWrap: "wrap", animation: "fadeIn 0.4s ease 0.1s both" }}>
-        <div style={{ position: "relative" }}>
+      <div style={{ display: "flex", alignItems: "center", justifyContent: "center", gap: 12, padding: "20px 24px", flexWrap: "wrap", animation: "fadeIn 0.4s ease 0.1s both", position: "relative", zIndex: 9999 }}>
+        <div style={{ position: "relative", zIndex: 9999 }}>
           <button onClick={() => setCalOpen(!calOpen)} style={{
             display: "flex", alignItems: "center", gap: 10,
             background: "linear-gradient(135deg, rgba(76,175,80,0.15), rgba(56,142,60,0.1))",
